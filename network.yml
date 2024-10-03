@@ -1,0 +1,11 @@
+services:
+  nginx:
+    image: nginx:1.11.8-alpine
+    ports:
+      - "8081:80"
+    container_name: nginx_test
+    volumes:
+      - postgres-vol2:/usr/share/app
+volumes:
+  postgres-vol2:
+    external: true
