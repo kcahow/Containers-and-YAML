@@ -4,4 +4,4 @@
 
 ## Connecting to the MongoDb Shell
 
-- docker exec -it <<Container_Name>> mongosh --username <<User_Name>> --password <Password>
+- docker exec -it <<Container_Name>> mongosh --username <<User_Name>> --password <<Password>>
